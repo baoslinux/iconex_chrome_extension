@@ -1,6 +1,6 @@
 export const ICX_WALLET_SERVER = prodDev('https://wallet.icon.foundation', 'https://testwallet.icon.foundation')
 export const ICX_TRACKER_SERVER = prodDev('https://tracker.icon.foundation', 'https://trackerdev.icon.foundation')
-export const ETH_SERVER = prodDev('https://api.myetherapi.com/eth', 'https://ropsten.infura.io/')
+export const ETH_SERVER = prodDev('https://api.myetherwallet.com/eth', 'https://ropsten.infura.io/')
 export const ETH_SCAN = prodDev('https://etherscan.io', 'https://ropsten.etherscan.io')
 // EIP 155 chainId - mainnet: 1, ropsten: 3
 export const CHAIN_ID = prodDev(1, 3);
